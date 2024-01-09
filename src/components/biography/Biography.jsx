@@ -1,7 +1,11 @@
-import "./Gallery.css"
+import "./Biography.css"
+import {bioCover} from "../../assets/covers/bioCover.png"
 
-export default function Gallery(){
-    <div>
-        
-    </div>
+export default function Biography(){
+    return(
+        <div>
+            <figure> {bioCover} </figure>
+            HOLA
+        </div>
+)
 }
