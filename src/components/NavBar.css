@@ -1,0 +1,56 @@
+.navBar {
+    position: relative;
+    width: 100%;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu.show {
+    transform: translateY(0);
+}
+
+.menuList {
+    position: absolute;
+    width: 50%;
+    margin-top: 3%;
+    left: 25%;
+    border-radius: 16px;
+    background: rgba(126, 126, 126, 0.13);
+    backdrop-filter: blur(2px);
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+
+}
+
+.route {
+    font-size: 18px;
+}
+
+#menuBtn {
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.textRoute {
+    text-decoration: none;
+    color: white;
+}
+.active {
+    color: #BF94FF;
+    
+}
