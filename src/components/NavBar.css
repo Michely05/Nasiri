@@ -1,0 +1,27 @@
+nav{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 20px;
+    background: rgba(126, 126, 126, 0.53);
+    backdrop-filter: blur(2px);
+    width: 45%;
+    padding: 10px;
+    border-radius: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    gap: 70px;
+}
+li{
+    font-size: 20px;
+}

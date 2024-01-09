@@ -1,5 +1,9 @@
 import React from "react"
 
 export default function EventsPage(){
-    <div></div>
+    return(
+    <div>
+        <h1>Events</h1>
+    </div>
+)
 }

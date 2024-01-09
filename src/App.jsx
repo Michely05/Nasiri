@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import "./App.css";
 
 function App() {
+<<<<<<< HEAD
   return(
     <div>
     <BrowserRouter>
@@ -13,6 +14,18 @@ function App() {
     </div>
   );
 };
+=======
+
+  return (
+    <div className="appContainer">
+      <Router />
+      <NavBar/>
+    </div>
+      
+    
+  )
+}
+>>>>>>> f8c8cc6d79dd67012a8833e30335a317f4dae0ad
 
 export default App;
 

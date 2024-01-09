@@ -3,9 +3,8 @@ import Biography from "../../src/components/biography/Biography"
 
 
 export default function BiographyPage(){
-    return (
+    return(
     <div>
-        <Biography />
+        <h1>Biography</h1>
     </div>
-)
-}
+)}
