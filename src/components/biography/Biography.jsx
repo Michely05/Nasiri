@@ -7,5 +7,5 @@ export default function Biography(){
             <figure> {bioCover} </figure>
             HOLA
         </div>
-)
+    )
 }

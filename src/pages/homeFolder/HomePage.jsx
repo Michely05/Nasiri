@@ -4,7 +4,6 @@ export default function HomePage(){
     return(
         <>
         <div className="background"></div>
-        
         <div className="textContainer">
             <h1>Nasiri</h1>
             <span>ORIENTAL INSTRUMENTS & ELECTRONI LIVE</span>
