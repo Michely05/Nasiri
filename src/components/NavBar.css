@@ -17,9 +17,9 @@
 
 .menuList {
     position: absolute;
-    width: 50%;
+    width: 55%;
     margin-top: 3%;
-    left: 25%;
+    left: 20%;
     border-radius: 16px;
     background: rgba(126, 126, 126, 0.13);
     backdrop-filter: blur(2px);
