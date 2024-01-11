@@ -1,7 +1,6 @@
 import React from "react";
 import "../pages/EventsPage.css";
-
-
+import Footer from "../components/Footer";
 
 export default function EventsPage() {
     return (
@@ -47,6 +46,7 @@ export default function EventsPage() {
           </tr>
         </tbody>
       </table>
+      <Footer />
       </div>
     );
   }
