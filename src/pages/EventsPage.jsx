@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 export default function EventsPage() {
     return (
       <div>
-        <h1>UPCOMING EVENTS</h1>
+        <h1 className="eventsHeader">UPCOMING EVENTS</h1>
         <table className="events-table">
         <tbody>
           <tr>
