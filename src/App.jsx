@@ -6,10 +6,12 @@ import "./App.css";
 function App() {
 
   return (
-    <BrowserRouter>
-      <Router/>
+    <div className="appContainer">
+      <Router />
       <NavBar/>
-    </BrowserRouter>
+    </div>
+      
+    
   )
 }
 
