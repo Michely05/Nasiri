@@ -1,1 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Tenor+Sans&display=swap");
 
+* {
+  font-family: "tenor sans";
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

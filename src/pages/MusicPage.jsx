@@ -1,5 +1,9 @@
 import React from "react"
 
 export default function MusicPage(){
-    <div></div>
+    return(
+    <div>
+        <h1>Music</h1>
+    </div>
+    )
 }

@@ -11,9 +11,6 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.menu.show {
-    transform: translateY(0);
-}
 
 .menuList {
     position: absolute;
@@ -30,21 +27,20 @@
     align-items: center;
     gap: 2rem;
     
-
 }
 
 .route {
     font-size: 18px;
 }
 
-#menuBtn {
-    text-decoration: none;
-    background: transparent;
-    border: none;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    
+.menuBtn {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.closeBtn{
+    display: none;
 }
 .textRoute {
     text-decoration: none;
@@ -52,5 +48,38 @@
 }
 .active {
     color: #BF94FF;
+    
+}
+@media(max-width: 600px){
+    .menuBtn{
+        display: block;
+    }
+    .closeBtn{
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .menuList{
+        left: 0;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        z-index: 999;
+        gap: 4rem;
+        background: rgba(0, 0, 0, 0.194);
+        backdrop-filter: blur(15px);
+        border: none;
+    }
+    .route{
+        font-size: 25px;
+    }
     
 }
