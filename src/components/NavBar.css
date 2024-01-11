@@ -1,6 +1,6 @@
 .navBar {
     position: relative;
-    width: 100%;
+    
 }
 
 .menu {
@@ -9,28 +9,26 @@
     left: 0;
     width: 100%;
     transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
 }
 
 
 .menuList {
     position: absolute;
-    width: 55%;
+    display: flex;
     margin-top: 3%;
-    left: 20%;
     border-radius: 16px;
     background: rgba(126, 126, 126, 0.13);
     backdrop-filter: blur(2px);
     padding: 1rem;
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 2rem;
     
 }
 
 .route {
-    font-size: 18px;
+    font-size: 2vw;
 }
 
 .menuBtn {
