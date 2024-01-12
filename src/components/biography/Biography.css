@@ -1,0 +1,13 @@
+.biographyContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+    gap: 1rem;
+    color: white;
+}
+
+.coverImg { 
+    width: 46.875rem;
+    height: 31.25rem;
+
+}

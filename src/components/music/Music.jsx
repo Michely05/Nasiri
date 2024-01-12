@@ -1,7 +1,5 @@
 import React from 'react';
 import Gallery from '../../components/Gallery';
-
-
 import isa1 from "../../assets/img/isa2.png";
 import isa2 from "../../assets/img/isa3.png";
 import isa3 from "../../assets/img/isa4.png";
