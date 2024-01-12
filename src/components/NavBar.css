@@ -1,8 +1,6 @@
 .navBar {
     position: relative;
-    
 }
-
 .menu {
     position: fixed;
     top: 0;
@@ -12,8 +10,6 @@
     display: flex;
     justify-content: center;
 }
-
-
 .menuList {
     position: absolute;
     display: flex;
@@ -24,13 +20,10 @@
     padding: 1rem;
     list-style: none;
     gap: 2rem;
-    
 }
-
 .route {
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
-
 .menuBtn {
     display: none;
     position: fixed;
@@ -46,7 +39,6 @@
 }
 .active {
     color: #BF94FF;
-    
 }
 @media(max-width: 600px){
     .menuBtn{
@@ -58,7 +50,6 @@
         top: 10px;
         left: 10px;
     }
-    
     .menuList{
         left: 0;
         margin: 0;
@@ -79,5 +70,4 @@
     .route{
         font-size: 25px;
     }
-    
 }
