@@ -9,7 +9,7 @@ export default function EventsPage() {
         <table className="events-table">
         <tbody>
           <tr>
-            <td>24 ene 2024</td>
+            <td>27 ene 2024</td>
             <td>Sábado 20:00hs</td>
             <td>Sala Aranda, Barcelona</td>
             <td><a href="#" target="_blank" rel="noopener noreferrer"><button type="button">Buy tickets</button></a></td>
