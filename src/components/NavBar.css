@@ -23,14 +23,13 @@
     padding: 1rem;
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    
 }
 
 .route {
-    font-size: 18px;
+    font-size: 23px;
 }
 
 .menuBtn {
@@ -48,11 +47,6 @@
 }
 .active {
     color: #BF94FF;
-    
-}
-button{
-    background-color: transparent;
-    border: none;
 }
 @media(max-width: 600px){
     .menuBtn{
