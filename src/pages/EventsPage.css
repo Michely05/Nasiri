@@ -55,3 +55,25 @@ h1 {
 .events-table button:hover {
   background-color: #7a0c0c;
 }
+
+.date-month-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.date-cell {
+  font-size: 40px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.month-cell {
+  display: block;
+  font-size: 20px;
+}
+
+.year-cell {
+  display: block;
+  font-size: 20px;
+}
