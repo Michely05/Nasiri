@@ -31,6 +31,8 @@
 }
 .emailLink{
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;   
+}
+.emailLink:hover{
+    text-decoration: underline;
 }
