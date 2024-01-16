@@ -50,6 +50,10 @@
     color: #BF94FF;
     
 }
+button{
+    background-color: transparent;
+    border: none;
+}
 @media(max-width: 600px){
     .menuBtn{
         display: block;

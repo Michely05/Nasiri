@@ -1,5 +1,5 @@
 .background{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -7,7 +7,7 @@
     background-image: url('../../assets/covers/nasiriHome.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     filter: brightness(0.6);
     z-index: -1;
 }
@@ -18,12 +18,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 25px;
-    text-align: justify;
+    gap: 40px;
+    text-align: center;
 }
-h1{
+#title{
     font-size: 80px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 span{
@@ -85,5 +86,11 @@ p{
     .icons{
         width: 50%;
         gap: 23px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .background{
+        
     }
 }
