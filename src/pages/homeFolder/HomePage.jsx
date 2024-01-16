@@ -7,7 +7,7 @@ import Youtube from '../../assets/icons/Youtube.png'
 
 export default function HomePage(){
     return(
-        <>
+        <div className='homeContainer'>
         <div className="background"></div>
         
         <div className="textContainer">
@@ -33,6 +33,6 @@ export default function HomePage(){
             </a>
         </div>
         
-    </>
+    </div>
     )
 }
