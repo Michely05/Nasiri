@@ -1,0 +1,45 @@
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+  font-size: 20px;
+  width: 100%;
+  height: 150px;
+  background-color: #313131;
+}
+
+.socialLinks p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+  font-size: 15px;
+  width: 100%;
+}
+
+.socialLinks img {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 0 50px;
+}
+
+.souncloudIcon {
+  width: 150px;
+}
+
+.spotifyIcon {
+  width: 130px;
+}
+
+.youtubeIcon {
+  width: 140px;
+}
+
+.instagramIcon {
+  width: 130px;
+}
