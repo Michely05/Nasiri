@@ -1,12 +1,79 @@
-.contact{
+.contact {
+    position: relative;
     background-image: url(../../src/assets/img/NASIRI_PIC_21.jpg);
     background-size: cover;
-    width: 100%;  
-    height: 100vh;  
-}
-.blurContact{
     width: 100%;
     height: 100vh;
-   backdrop-filter: blur(0px); 
-   transition: backdrop-filter 0.5s ease-in-out; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.blurContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(0px);
+    transition: backdrop-filter 0.5s ease-in-out;
+}
+
+.contactForm {
+    opacity: 0;
+    transform: translateY(20px);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.blurContact.appear .contactForm {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.contactInputs {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactInputs::placeholder {
+    color: #999;
+}
+
+textarea.contactImputs {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.blurContact:hover .contactForm {
+    opacity: 1;
+    transform: translateY(0);
+}
+
