@@ -37,6 +37,7 @@
 
 
 
+
 .contactInputs {
     width: 100%;
     padding: 10px;
@@ -72,8 +73,5 @@ button:hover {
     background-color: #45a049;
 }
 
-.blurContact:hover .contactForm {
-    opacity: 1;
-    transform: translateY(0);
-}
+
 

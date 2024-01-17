@@ -3,6 +3,7 @@ import './ContactPage.css';
 
 function ContactPage() {
   const [blurValue, setBlurValue] = useState(0);
+  const [isPageLoaded, setPageLoaded] = useState(false);
   let interval;
 
   useEffect(() => {
@@ -13,6 +14,7 @@ function ContactPage() {
           return prevBlur + 1;
         } else {
           clearInterval(interval);
+          setPageLoaded(true); // Marcar la página como cargada al finalizar la simulación
           return prevBlur;
         }
       });
@@ -22,14 +24,9 @@ function ContactPage() {
     return () => clearInterval(interval);
   }, []); // La dependencia vacía asegura que el efecto se ejecute solo una vez al montar el componente
 
-  const handleAnimationStart = () => {
-    const formContainer = document.querySelector('.blurContact');
-    formContainer.classList.add('appear');
-  };
-
   return (
     <section className='contact'>
-      <div className={`blurContact`} style={{ backdropFilter: `blur(${blurValue}px)` }} onAnimationStart={handleAnimationStart}>
+      <div className={`blurContact ${isPageLoaded ? 'appear' : ''}`} style={{ backdropFilter: `blur(${blurValue}px)` }}>
         <form action="" className='contactForm'>
           <input type="text" name='name' placeholder='Your Name' className='contactInputs' required/>
           <input type="email" name='email' placeholder='Your Email' className='contactInputs' required/>
@@ -42,6 +39,9 @@ function ContactPage() {
 }
 
 export default ContactPage;
+
+
+
 
 
 
