@@ -27,11 +27,12 @@ function ContactPage() {
   return (
     <section className='contact'>
       <div className={`blurContact ${isPageLoaded ? 'appear' : ''}`} style={{ backdropFilter: `blur(${blurValue}px)` }}>
-        <form action="" className='contactForm'>
-          <input type="text" name='name' placeholder='Your Name' className='contactInputs' required/>
-          <input type="email" name='email' placeholder='Your Email' className='contactInputs' required/>
-          <textarea name="message" placeholder='Your Message' className='contactImputs' required></textarea>
-          <button type='submit'>Submit</button>
+        <form action="https://api.web3forms.com/submit" method="POST" className='contactForm'>
+          <input type="hidden" name="access_key" value="94b55998-ab62-4ad3-b860-51ddfba20f86"/>
+            <input type="text" name='name' placeholder='Your Name' className='contactInputs' required />
+            <input type="email" name='email' placeholder='Your Email' className='contactInputs' required />
+            <textarea name="message" placeholder='Your Message' className='contactImputs' required></textarea>
+            <button type='submit'>Submit</button>
         </form>
       </div>
     </section>

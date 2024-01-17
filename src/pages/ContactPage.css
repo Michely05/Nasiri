@@ -46,6 +46,7 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 .contactInputs::placeholder {
@@ -60,6 +61,7 @@ textarea.contactImputs {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 button {
@@ -69,11 +71,17 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
     background-color: #45a049;
 }
 
-
+@media (max-width: 768px) {
+    .contactForm {
+      width: 90%;
+      max-width: 100%;
+    }
+  }
 
