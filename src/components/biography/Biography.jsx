@@ -1,10 +1,23 @@
 import "./Biography.css"
 import nasiriPic1 from "../../assets/img/nasiri5.png"
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function Biography() {
     return(
      <div className="biographyContainer">
-         <img className="coverImg" src={nasiriPic1} alt="pic1" />
+        <Carousel slide={false}>
+        <Carousel.Item>
+              <img
+              className="d-block coverImg" 
+              src={nasiriPic1}
+              alt="First slide"
+            />
+            <Carousel.Caption>
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
          <div>
             <p>Nasiri, the renowned international multi-instrumentalist and producer, takes audiences on a sensory-rich world music voyage, fusing oriental instruments like the oud, flute, and clarinet with an electronic foundation, featuring deep bass lines, rhythmic synths and organic percussionli</p>
             <p>"A journey through the spiritual and the material, the real and the unreal, that reflects the mysticism and the meaning of our existence".</p>
