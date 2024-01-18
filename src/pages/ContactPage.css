@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .blurContact {
@@ -20,6 +21,7 @@
 }
 
 .contactForm {
+    margin-top: 10%;
     opacity: 0;
     transform: translateY(20px);
     background-color: rgba(255, 255, 255, 0.8);
@@ -78,10 +80,23 @@ button:hover {
     background-color: #45a049;
 }
 
-@media (max-width: 768px) {
-    .contactForm {
-      width: 90%;
-      max-width: 100%;
-    }
-  }
+.title {
+    font-size: 6vw;
+    position: absolute;
+    top: 12%;
+    color: white;
+    z-index: 35;
 
+}
+
+@media (max-width: 600px) {
+    .contactForm {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .title {
+        top: 2%;
+        left: 32%;
+    }
+}

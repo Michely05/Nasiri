@@ -18,7 +18,7 @@ function ContactPage() {
           return prevBlur;
         }
       });
-    }, 50);
+    }, 100);
 
     // Limpiar el intervalo al desmontar el componente
     return () => clearInterval(interval);
@@ -26,6 +26,7 @@ function ContactPage() {
 
   return (
     <section className='contact'>
+      <h1 className='title'>CONTACT US</h1>
       <div className={`blurContact ${isPageLoaded ? 'appear' : ''}`} style={{ backdropFilter: `blur(${blurValue}px)` }}>
         <form action="https://api.web3forms.com/submit" method="POST" className='contactForm'>
           <input type="hidden" name="access_key" value="94b55998-ab62-4ad3-b860-51ddfba20f86"/>
