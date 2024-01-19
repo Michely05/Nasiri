@@ -38,9 +38,6 @@
     transform: translateY(0);
 }
 
-
-
-
 .contactInputs {
     width: 100%;
     padding: 10px;
@@ -67,7 +64,6 @@ textarea.contactImputs {
 }
 
 button {
-    /* ... (otros estilos) */
     font-size: 16px;
     background-color: #4CAF50;
     color: white;
