@@ -4,6 +4,7 @@ import './ContactPage.css';
 function ContactPage() {
   const [blurValue, setBlurValue] = useState(0);
   const [isPageLoaded, setPageLoaded] = useState(false);
+  const accessKey = import.meta.env.VITE_API_KEY;
   let interval;
 
   useEffect(() => {
@@ -29,7 +30,7 @@ function ContactPage() {
       <h1 className='title'>CONTACT US</h1>
       <div className={`blurContact ${isPageLoaded ? 'appear' : ''}`} style={{ backdropFilter: `blur(${blurValue}px)` }}>
         <form action="https://api.web3forms.com/submit" method="POST" className='contactForm'>
-          <input type="hidden" name="access_key" value="94b55998-ab62-4ad3-b860-51ddfba20f86"/>
+          <input type="hidden" name="access_key" value={accessKey}/>
             <input type="text" name='name' placeholder='Your Name' className='contactInputs' required />
             <input type="email" name='email' placeholder='Your Email' className='contactInputs' required />
             <textarea name="message" placeholder='Your Message' className='contactImputs' required></textarea>
