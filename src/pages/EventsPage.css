@@ -19,7 +19,7 @@
   font-family: "Roboto Mono", monospace;
   color: white;
   margin: 50px auto;
-  font-size: 20px;
+  font-size: 22px;
   width: 80%;
   border-collapse: collapse;
 }
@@ -63,7 +63,7 @@
 }
 
 .date-cell {
-  font-size: 40px;
+  font-size: 45px;
   vertical-align: middle;
   font-weight: bold;
 }
