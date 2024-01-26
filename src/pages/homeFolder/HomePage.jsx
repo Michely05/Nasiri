@@ -7,11 +7,11 @@ import Youtube from '../../assets/icons/Youtube.png'
 
 export default function HomePage(){
     return(
-        <>
+        <div className='homeContainer'>
         <div className="background"></div>
         
         <div className="textContainer">
-            <h1>Nasiri</h1>
+            <h1 id='title'>Nasiri</h1>
             <span>ORIENTAL INSTRUMENTS <span>&</span> ELECTRONIC LIVE</span>
             <p>"A journey through the spiritual and the material, the real and the unreal, that reflects mysticism and the meaning of our existence"</p>
         </div>
@@ -33,6 +33,6 @@ export default function HomePage(){
             </a>
         </div>
         
-    </>
+    </div>
     )
 }

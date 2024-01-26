@@ -9,7 +9,9 @@ function App() {
       <NavBar />
       <Router />
     </div>
-  );
+      
+    
+  )
 }
 
 export default App;
