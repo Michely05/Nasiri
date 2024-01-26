@@ -1,7 +1,12 @@
-.contactDiv{
+.contact{
+    background-image: url(../../src/assets/img/NASIRI_PIC_21.jpg);
+    background-size: cover;
     width: 100%;  
-    height: 100%;  
+    height: 100vh;  
 }
-p{
-    color: white;
+.blurContact{
+    width: 100%;
+    height: 100vh;
+   backdrop-filter: blur(0px); 
+   transition: backdrop-filter 0.5s ease-in-out; 
 }
