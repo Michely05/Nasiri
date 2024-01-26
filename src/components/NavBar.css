@@ -1,5 +1,6 @@
 .navBar {
   position: relative;
+  z-index: 55;
 }
 .menu {
   width: 100%;
