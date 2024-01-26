@@ -4,15 +4,16 @@ import NavBar from "./components/NavBar";
 import "./App.css";
 
 function App() {
-  return(
-    <div>
-    <BrowserRouter>
+
+  return (
+    <div className="appContainer">
+      <Router />
       <NavBar/>
-      <Router/>
-    </BrowserRouter>
     </div>
-  );
-};
+      
+    
+  )
+}
 
 export default App;
 

@@ -1,5 +1,10 @@
-import React from "react"
+import React from 'react'
+import './ContactPage.css'
 
-export default function ContactPage(){
-    <div></div>
+function ContactPage() {
+  return (
+    <div>ContactPage</div>
+  )
 }
+
+export default ContactPage

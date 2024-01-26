@@ -1,18 +1,11 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Tenor+Sans&display=swap");
+
+* {
+  font-family: "tenor sans";
 }
-
-
-body{
-  background-color: black;
-  /* background-image: linear-gradient(to top, #000000, #070003, #0c0009, #0d0010, #0a0116, #0c031e, #0a0626, #030a2f, #030d3c, #0a0d48, #180952, #28005c);
-  background-size: 100% 100% */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
-
-
