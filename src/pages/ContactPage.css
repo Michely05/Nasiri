@@ -67,7 +67,7 @@ textarea.contactImputs {
 
 button {
     font-size: 16px;
-    background-color: orange;
+    background-color: #bf94ff;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-    background-color: orangered;
+    background-color: #771dff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
