@@ -1,0 +1,38 @@
+.contact{
+    background-image: url(../../src/assets/img/NASIRI_PIC_21.jpg);
+    background-size: cover;
+    width: 100%;  
+    height: 100vh;  
+}
+.blurContact{
+    width: 100%;
+    height: 100vh;
+   backdrop-filter: blur(3px); 
+}
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%; 
+      
+}
+.title{
+    font-size: 3rem;
+    color: white;
+}
+.paragraphContainer{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.paragraph{
+    color: white;
+}
+.emailLink{
+    color: white;
+    text-decoration: none;   
+}
+.emailLink:hover{
+    text-decoration: underline;
+}

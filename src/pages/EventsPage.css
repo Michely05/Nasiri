@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-.eventsBackground {
+.eventsHeader {
+  display: flex;
+  justify-content: center;
   padding: 150px;
   margin: 0;
   color: white;
@@ -8,16 +10,16 @@
   letter-spacing: 5px;
   font-size: 60px;
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
-  background-image: url("../assets/img/eventsHeader.png");
+  background-image: url("../assets/covers/eventsHeader.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .events-table {
+  font-family: "Roboto Mono", monospace;
   color: white;
   margin: 50px auto;
   font-size: 20px;
-  font-family: "Roboto Mono", monospace;
   width: 80%;
   border-collapse: collapse;
 }
@@ -52,4 +54,26 @@
 
 .events-table button:hover {
   background-color: #7a0c0c;
+}
+
+.date-month-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.date-cell {
+  font-size: 40px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.month-cell {
+  display: block;
+  font-size: 20px;
+}
+
+.year-cell {
+  display: block;
+  font-size: 20px;
 }

@@ -40,6 +40,7 @@ export default function NavBar() {
                     <li className='route'><NavLink to="/music" className='textRoute' activeclassname='active' onClick={handleNavLinkClick}>MUSIC</NavLink></li>
                     <li className='route'><NavLink to="/video" className='textRoute' activeclassname='active' onClick={handleNavLinkClick}>VIDEO</NavLink></li>
                     <li className='route'><NavLink to="/contact" className='textRoute' activeclassname='active' onClick={handleNavLinkClick}>CONTACT</NavLink></li>
+                    
                 </ul>
             </nav>
         </div>
