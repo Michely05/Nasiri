@@ -24,7 +24,7 @@
     margin-top: 10%;
     opacity: 0;
     transform: translateY(20px);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.171);
     padding: 20px;
     border-radius: 10px;
     width: 90%;
@@ -45,13 +45,14 @@
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #474747;
     border-radius: 5px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.258);
 }
 
 .contactInputs::placeholder {
-    color: #999;
+    color: #ababab;
 }
 
 textarea.contactImputs {
@@ -60,9 +61,10 @@ textarea.contactImputs {
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #474747;
     border-radius: 5px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.258);
 }
 
 button {
