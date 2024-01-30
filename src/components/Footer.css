@@ -1,27 +1,44 @@
+.footerContainer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #141414;
+  
+}
+
 .socialLinks {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  flex-wrap: wrap;
-  font-size: 20px;
   width: 100%;
-  height: 150px;
-  background-color: #313131;
+  height: 50%;
+
+  gap: 20px;
 }
 
-.socialLinks p {
+.socialLinks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6%;
+}
+
+.footerParraf {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  flex-wrap: wrap;
-  font-size: 15px;
+  font-size: 1rem;
   width: 100%;
+  height: 50%;
 }
 
-.socialLinks img {
-  display: inline-block;
+.footerIcons {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;

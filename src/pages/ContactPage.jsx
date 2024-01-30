@@ -34,7 +34,7 @@ function ContactPage() {
           <input type="text" name='name' placeholder='Introduce tu nombre' className='contactInputs' required />
           <input type="email" name='email' placeholder='Introduce tu email' className='contactInputs' required />
           <textarea name="message" placeholder='Escribe tu mensaje' className='contactImputs' required></textarea>
-          <button type='submit'>Submit</button>
+          <button className='contactBtn' type='submit'>Submit</button>
         </form>
       </div>
       <Footer />

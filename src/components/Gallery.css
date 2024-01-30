@@ -5,6 +5,7 @@
   flex-direction: column;
   width: 100%;
   gap: 60px;
+  z-index: 100;
 }
 
 .bannerGallery {
@@ -14,7 +15,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: -1;
 }
 
 .bannerGallery img {
@@ -22,81 +22,130 @@
   height: 100%;
   border-radius: 0 0 24px 24px;
   object-fit: cover;
-  filter: brightness(0.6);
+  filter: brightness(0.4);
 }
 
 .titleGallery {
   width: 100%;
-  font-size: 500%;
+  font-size: 5rem;
   color: white;
   text-align: center;
   text-transform: uppercase;
   position: absolute;
 }
 
-.imgGalleryContainer {
+.itemGalleryContainer {
   width: 80%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  position: relative;
+  margin: 5% 0 0 0;
 }
 
-.galleryItemContainer {
+.galleryImgBtnsContainer {
   width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: opacity 0.3s ease-in-out;
+  margin-bottom: 2%;
   position: relative;
-  margin: 2% 0 2% 0;
-  border: 1px solid red;
 }
 
-.galleryItemContainer img {
+.galleryImgBtnsContainer a {
   width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.galleryItemContainer:hover {
-  opacity: 0.5;
+.galleryImgBtnsContainer a:hover {
+  filter: brightness(0.7);
 }
 
 .galleryImg {
   width: 100%;
-  border-radius: 6px;
+  border-radius: 24px;
 }
 
 .galleryBtn {
+  position: absolute;
+  padding: 12px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  position: absolute;
   border: none;
-  border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.652);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.425);
   color: rgb(255, 255, 255);
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  gap: 4%;
+  transition: all 0.5s ease-in-out;
 }
 
-.diagonalArrow{
+.galleryBtn:hover{
+  background-color: orange;
+  cursor: pointer;
+}
+
+.diagonalArrow {
   width: 20px;
   height: 20px;
   transform: rotate(315deg);
 }
 
-.diagonalArrow:hover{
-  width: 30px;
-  height: 30px;
-  top: 20px;
-  right: 20px;
+.diagonalArrow:hover {
+  transform: skew(1deg);
+ cursor: pointer;
 }
 
-@media (max-width: 1024px) {
-  .bannerGallery {
-    height: 300px;
-    border: 1px solid red;
+
+@media (max-width: 600px) {
+  .galleryContainer {
+    gap: 40px;
   }
-  
+
+  .bannerGallery {
+    height: 200px;
+  }
+
+  .titleGallery {
+    font-size: 3rem;
+  }
+
+  .itemGalleryContainer {
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .galleryItemContainer {
+    width: 100%;
+  }
+
+  .galleryImgBtnsContainer {
+    width: 100%;
+  }
+
+  .galleryImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 24px;
+  }
+
+  .galleryBtn {
+    padding: 16px 120px;
+    border-radius: 16px;
+    text-transform: uppercase;
+  }
+
+  .galleryBtn:hover {
+    background-color: orange;
+  }
 }
