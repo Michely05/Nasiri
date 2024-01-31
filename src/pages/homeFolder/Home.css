@@ -26,6 +26,8 @@
     justify-content: center;
     gap: 40px;
     text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.887);
+
 }
 #title{
     font-size: 80px;
@@ -39,15 +41,16 @@ span {
 }
 
 p {
-  width: 30%;
+  width: 40%;
   height: 30%;
-  font-size: 40px;
+  font-size: 3rem;
 }
 .icons {
   margin-top: 70px;
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  gap: 100px;
+  gap: 25%;
 }
 
 .icons > img {
@@ -85,14 +88,15 @@ p {
     font-size: 22px;
     letter-spacing: 1px;
   }
-  .icons {
-    width: 50%;
-    gap: 23px;
-  }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1440px) and (min-width: 600px){
     .background{
-        
+        background-position: center;
+    }
+    p {
+      width: 60%;
+      letter-spacing: 1px;
+      font-size: 2.3rem;
     }
 }
